@@ -8,8 +8,7 @@ return [
 
     'allowed_origins' => [
     'http://localhost:5173',
-    'https://tienda-dmadrid-fronted.vercel.app' // ✔️ correcto (nombre real del proyecto)
-],
+    'https://tienda-dmadrid-fronted.vercel.app' ],
 
     'allowed_origins_patterns' => [],
 
