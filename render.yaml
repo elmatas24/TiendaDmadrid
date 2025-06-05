@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: tienda-dmadrid-backend
+    env: docker
+    plan: free
+    region: frankfurt
+    dockerfilePath: ./Dockerfile
+    buildCommand: ""
+    startCommand: ""
+    autoDeploy: true
