@@ -1,4 +1,3 @@
-HEAD
 <?php
 
 return [
@@ -7,7 +6,10 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['http://localhost:5173'],
+    'allowed_origins' => [
+        'http://localhost:5173',                     
+        'https://tienda-dmadrid.vercel.app'          
+    ],
 
     'allowed_origins_patterns' => [],
 
@@ -17,7 +19,7 @@ return [
 
     'max_age' => null,
 
-    'supports_credentials' => false
+    'supports_credentials' => false,
 
 ];
 
