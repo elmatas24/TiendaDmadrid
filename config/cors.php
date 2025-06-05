@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> c344a99 (tablas)
 <?php
 
 return [
@@ -25,7 +22,4 @@ return [
     'supports_credentials' => false,
 
 ];
-<<<<<<< HEAD
 
-=======
->>>>>>> c344a99 (tablas)
