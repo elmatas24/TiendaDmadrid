@@ -17,6 +17,9 @@ WORKDIR /var/www/html
 # Copiar archivos del proyecto
 COPY . .
 
+# Cambiar el DocumentRoot a public/
+RUN sed -i 's|DocumentRoot /var/www/html|DocumentRoot /var/www/html/public|' /etc/apache2/sites-available/000-default.conf
+
 # Instalar dependencias
 RUN composer install --no-dev --optimize-autoloader
 
