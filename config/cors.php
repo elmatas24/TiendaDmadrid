@@ -1,4 +1,3 @@
-
 <?php
 
 return [
@@ -8,8 +7,9 @@ return [
     'allowed_methods' => ['*'],
 
     'allowed_origins' => [
-    'http://localhost:5173',
-    'https://tienda-dmadrid-fronted.vercel.app' ],
+        'http://localhost:5173',
+        'https://tienda-dmadrid-fronted.vercel.app',
+    ],
 
     'allowed_origins_patterns' => [],
 
@@ -22,4 +22,3 @@ return [
     'supports_credentials' => false,
 
 ];
-
